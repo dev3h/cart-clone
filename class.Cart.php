@@ -1,18 +1,4 @@
 <?php
-
-/**
- * Cart: A very simple PHP cart library.
- *
- * Copyright (c) 2017 Sei Kan
- *
- * Distributed under the terms of the MIT License.
- * Redistributions of files must retain the above copyright notice.
- *
- * @copyright  2017 Sei Kan <seikan.dev@gmail.com>
- * @license    http://www.opensource.org/licenses/mit-license.php The MIT License
- *
- * @see       https://github.com/seikan/Cart
- */
 class Cart
 {
 	/**
