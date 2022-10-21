@@ -99,8 +99,9 @@ if ($a == 'cart') {
 
 				$cartContents .= '
 				<tr>
+					<td>' . $product['name'] . '</td>
 					<td class="text-center"><div class="form-group"><input type="number" value="' . $item['quantity'] . '" class="form-control quantity pull-left" style="width:100px"><div class="pull-right"><button class="btn btn-default btn-update" data-id="' . $id . '" data-color="' . ((isset($item['attributes']['color'])) ? $item['attributes']['color'] : '') . '"><i class="fa fa-refresh"></i> Update</button><button class="btn btn-danger btn-remove" data-id="' . $id . '" data-color="' . ((isset($item['attributes']['color'])) ? $item['attributes']['color'] : '') . '"><i class="fa fa-trash"></i></button></div></div></td>
-					<td class="text-right">$' . $item['attribute']['price'] . '</td>
+					<td class="text-right">$' . $item['attributes']['price'] . '</td>
 				</tr>';
 			}
 		}
